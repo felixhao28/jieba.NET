@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2013
-VisualStudioVersion = 12.0.21005.1
+# Visual Studio 15
+VisualStudioVersion = 15.0.26621.2
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "docs", "docs", "{CAE0F06F-592A-4714-8494-6EA5D870F4F6}"
 	ProjectSection(SolutionItems) = preProject
@@ -27,6 +27,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Segmenter.Cli", "src\Segmen
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Segmenter.Tests", "test\Segmenter.Tests\Segmenter.Tests.csproj", "{77A71258-2175-4868-8539-D1EDFB5B7AB0}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DotnetCore.Analyser", "src\DotnetCore.Analyser\DotnetCore.Analyser.csproj", "{ADAA61FC-D216-4FAA-B26D-0EF873A07A99}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DotnetCore.Segmenter", "src\DotnetCore.Segmenter\DotnetCore.Segmenter.csproj", "{EE58AFF8-3BD2-42DA-B985-C6844DB8E719}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DotnetCore.Segmenter.Cli", "src\DotnetCore.Segmenter.Cli\DotnetCore.Segmenter.Cli.csproj", "{F9D020F1-B304-434F-9A50-BB145613E281}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -49,8 +55,23 @@ Global
 		{77A71258-2175-4868-8539-D1EDFB5B7AB0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{77A71258-2175-4868-8539-D1EDFB5B7AB0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{77A71258-2175-4868-8539-D1EDFB5B7AB0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ADAA61FC-D216-4FAA-B26D-0EF873A07A99}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ADAA61FC-D216-4FAA-B26D-0EF873A07A99}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ADAA61FC-D216-4FAA-B26D-0EF873A07A99}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ADAA61FC-D216-4FAA-B26D-0EF873A07A99}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EE58AFF8-3BD2-42DA-B985-C6844DB8E719}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EE58AFF8-3BD2-42DA-B985-C6844DB8E719}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EE58AFF8-3BD2-42DA-B985-C6844DB8E719}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EE58AFF8-3BD2-42DA-B985-C6844DB8E719}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F9D020F1-B304-434F-9A50-BB145613E281}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F9D020F1-B304-434F-9A50-BB145613E281}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F9D020F1-B304-434F-9A50-BB145613E281}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F9D020F1-B304-434F-9A50-BB145613E281}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D7E15D9B-3B15-4EF9-B583-5A5A1E628AF5}
 	EndGlobalSection
 EndGlobal
